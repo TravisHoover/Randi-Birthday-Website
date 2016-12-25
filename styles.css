@@ -15,7 +15,7 @@ body::before {
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/nose.jpg');
+    background-image: url('images/couple.jpg');
   }
 }
 @media (min-width: 513px)  and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -23,7 +23,7 @@ body::before {
        (min-width: 1025px) and (max-width: 2048px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/nose.jpg');
+    background-image: url('images/couple.jpg');
   }
 }
 @media (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -31,7 +31,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/bride.jpg');
+    background-image: url('images/couple.jpg');
   }
 }
 body .demo-blog {
@@ -170,7 +170,7 @@ body .demo-blog {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.coffee-pic {
+.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.tree-pic {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
@@ -180,7 +180,7 @@ body .demo-blog {
       -ms-flex-order: -1;
           order: -1;
 }
-.demo-blog .coffee-pic .mdl-card__media {
+.demo-blog .tree-pic .mdl-card__media {
   background-image: url('images/tree.jpg');
 }
 .demo-blog .something-else .mdl-card__media {
@@ -220,10 +220,10 @@ body .demo-blog {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.demo-blog .on-the-road-again .mdl-card__media {
+.demo-blog .rockWall .mdl-card__media {
   background-image: url('images/rockWall.jpg');
 }
-.demo-blog .shopping .mdl-card__media {
+.demo-blog .mountain .mdl-card__media {
   background-image: url('images/mountain.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
