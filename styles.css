@@ -15,7 +15,7 @@ body::before {
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/field.jpg');
+    background-image: url('images/nose.jpg');
   }
 }
 @media (min-width: 513px)  and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -23,7 +23,7 @@ body::before {
        (min-width: 1025px) and (max-width: 2048px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/field.jpg');
+    background-image: url('images/nose.jpg');
   }
 }
 @media (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -31,7 +31,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/field.jpg');
+    background-image: url('images/bride.jpg');
   }
 }
 body .demo-blog {
@@ -224,7 +224,7 @@ body .demo-blog {
   background-image: url('images/rockWall.jpg');
 }
 .demo-blog .shopping .mdl-card__media {
-  background-image: url('images/lake.jpg');
+  background-image: url('images/mountain.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
@@ -474,14 +474,17 @@ body .demo-blog {
   opacity: 0.46;
   border-radius: 2px;
 }
-.social-btn__twitter {
-  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+.social-btn__pinterest {
+  background-image: url('images/Pinterest/Pinterest-badge-36px.png');
 }
-.social-btn__blogger {
+.social-btn__facebook {
   background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
 }
-.social-btn__gplus {
-  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+.social-btn__instagram {
+  background-image: url('images/instagram.png');
+}
+.social-btn__linkedin {
+    background-image: url('images/Linkedin.jpeg');
 }
 .social-btn__share {
   color: rgba(0, 0, 0, 0.54);
