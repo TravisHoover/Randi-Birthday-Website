@@ -15,7 +15,7 @@ body::before {
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/couple.jpg');
+    background-image: url('images/rockWall.jpg');
   }
 }
 @media (min-width: 513px)  and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -23,7 +23,7 @@ body::before {
        (min-width: 1025px) and (max-width: 2048px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/couple.jpg');
+    background-image: url('images/rockWall.jpg');
   }
 }
 @media (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -31,7 +31,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/couple.jpg');
+    background-image: url('images/rockWall.jpg');
   }
 }
 body .demo-blog {
@@ -221,7 +221,7 @@ body .demo-blog {
   border-bottom-right-radius: 2px;
 }
 .demo-blog .rockWall .mdl-card__media {
-  background-image: url('images/rockWall.jpg');
+  background-image: url('images/field.jpg');
 }
 .demo-blog .mountain .mdl-card__media {
   background-image: url('images/mountain.jpg');
@@ -283,7 +283,7 @@ body .demo-blog {
   background-color: transparent;
 }
 .demo-blog--blogpost .demo-blog__posts > .mdl-card .mdl-card__media {
-  background-image: url('images/rockWall.jpg');
+  background-image: url('images/tree.jpg');
   height: 280px;
 }
 .demo-blog--blogpost .comments {
