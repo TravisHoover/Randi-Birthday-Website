@@ -461,6 +461,38 @@ body .demo-blog {
   display: -ms-flexbox !important;
   display: flex !important;
 }
+/* CSS for cards on Events page */
+.hiking-tile.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: url('images/hiking.jpg');
+}
+.skiing-tile.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: url('images/ski.jpg');
+}
+.skating-tile.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: url('images/iceSkate.jpg');
+}
+.snowmobile-tile.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: url('images/snowMobile.jpeg');
+}
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+/********************************/
 
 .social-btn {
   background-position: center;
