@@ -1,9 +1,10 @@
 <!doctype html>
+<script src="randi.js"></script>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Photos hosted on Facebook album">
+    <meta name="description" content="Photos hosted on PhotoBucket album">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Photos</title>
 
@@ -64,10 +65,47 @@
                 </a>
             </div>
             <div class="mdl-mini-footer--right-section">
-                <button class="mdl-mini-footer--social-btn social-btn__share">
+                <button class="mdl-mini-footer--social-btn social-btn__share" onclick="expandButtons()">
                     <i class="material-icons" role="presentation">share</i>
-                    <span class="visuallyhidden">share</span>
                 </button>
+
+                <!-- I got these buttons from simplesharebuttons.com -->
+                <div id="share-buttons" style="display: none">
+                    <!-- Email -->
+                    <a href="mailto:?Subject=Randi's Birthday Website&amp;Body=Look%20at%20what%20Travis%20made%20for%20Randi%20:)%0A hhttp://randihoover.com/">
+                        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="http://www.facebook.com/sharer.php?u=http://randihoover.com/" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+                    </a>
+
+                    <!-- Google+ -->
+                    <a href="https://plus.google.com/share?url=http://randihoover.com/" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://randihoover.com/" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+                    </a>
+
+                    <!-- Pinterest -->
+                    <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+                        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+                    </a>
+
+                    <!-- Reddit -->
+                    <a href="http://reddit.com/submit?url=http://randihoover.com/&amp;title=Randi's Birthday Website" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/share?url=http://randihoover.com/&amp;text=Randi's%20Birthday%20Website&amp;hashtags=husband" target="_blank">
+                        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+                    </a>
+                </div>
             </div>
         </footer>
     </main>
