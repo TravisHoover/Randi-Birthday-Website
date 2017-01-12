@@ -128,141 +128,14 @@ p {
   border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-.demo-blog .mdl-card__actions:first-child {
-  margin-left: 0;
-}
-.demo-blog .meta {
-  box-sizing: border-box;
-  padding: 16px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  height: auto;
-}
-.demo-blog .meta > .meta__favorites{
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: 0 8px;
-  font-size: 13px;
-  font-weight: 500;
-}
-.demo-blog .meta > .meta__favorites .material-icons {
-  font-size: 2em;
-  cursor: pointer;
-  margin-left: 12px;
-}
-.demo-blog .mdl-card .meta.meta--fill {
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.demo-blog .meta > *:first-child {
-  margin-right: 16px;
-}
-.demo-blog .meta > * {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.tree-pic {
-  -webkit-order: 0;
-      -ms-flex-order: 0;
-          order: 0;
-}
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.something-else {
-  -webkit-order: -1;
-      -ms-flex-order: -1;
-          order: -1;
-}
 .demo-blog .tree-pic .mdl-card__media {
   background-image: url('images/tree.jpg');
-}
-.demo-blog .something-else .mdl-card__media {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.demo-blog .something-else > button {
-  position: absolute;
-  top: 0;
-  right: 28px;
-  -webkit-transform: translate(0px, -28px);
-          transform: translate(0px, -28px);
-}
-.demo-blog .something-else .mdl-card__media {
-  font-size: 13px;
-  font-weight: 500;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-}
-.demo-blog .something-else .mdl-card__media img {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 10px;
-}
-.demo-blog .something-else .mdl-card__supporting-text {
-  background-color: #F5F5F5;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
 }
 .demo-blog .rockWall .mdl-card__media {
   background-image: url('images/field.jpg');
 }
 .demo-blog .mountain .mdl-card__media {
   background-image: url('images/mountain.jpg');
-}
-.demo-blog .demo-blog__posts > .demo-nav {
-  margin: 12px 15px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  font-weight: 500;
-}
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button {
-  color: white;
-  text-decoration: none;
-}
-.demo-blog .demo-blog__posts > .demo-nav .mdl-button {
-  color: rgba(0,0,0,0.54);
-  background-color: white;
-}
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button:first-child .mdl-button {
-  margin-right: 16px;
-}
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button:last-child .mdl-button {
-  margin-left: 16px;
 }
 .demo-blog .mdl-card h4.quote:before, .demo-blog .mdl-card h4.quote:after {
   display: block;
@@ -316,10 +189,6 @@ p {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-.demo-blog .something-else {
-  overflow: visible;
-  z-index: 10;
 }
 .demo-blog .amazing .mdl-card__title {
   background-color: #263238;
